@@ -23,7 +23,7 @@ export default function Main() {
           setBottom={setBottom}
         />
       </div>
-      <Character head={head} body={body} />
+      <Character head={head} body={body} bottom={bottom} />
     </div>
   );
 }
