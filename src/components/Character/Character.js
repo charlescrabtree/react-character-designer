@@ -1,7 +1,9 @@
-import React from 'react';
 
-export default function character() {
+
+export default function character({ head }) {
   return (
-    <div>character</div>
+    <div className="character">
+      <img className="head" src={`${process.env.PUBLIC_URL}/${head}.webp`} />
+    </div>
   );
 }
