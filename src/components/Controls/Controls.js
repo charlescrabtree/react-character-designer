@@ -45,6 +45,7 @@ export default function Controls({
         value={bottom}
         onChange={(e) => {
           setBottom(e.target.value);
+          setBottomCount((prevState) => prevState + 1);
         }}
       >
         <option value="DragonplateBoots">Dragonplate Boots</option>
