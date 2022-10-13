@@ -51,3 +51,7 @@ If you work on more than one feature at a time, you are guaranteed to multiply y
 ## Additional considerations
 - Is any of your state redundant? For example, if you're tracking `wins`, `losses`, and `total`, you can probably get rid of `losses` state, and calculate it as `total - wins`.
 - Where should each piece of state live? How are you going to get data from where it lives to where it needs to be?
+
+## Planning artifact
+- https://whimsical.com/8JTECLpvXGWtncrhP1HeZH
+- Here is the link to the whimsical board that I used to plan out this project. I tried to reflect the process that I would take to get the functions up and running. First I got the head working, then the body, followed by the bottoms. One at a time. Then I got the catchphrase working, one variable at a time. After that all I had to do was get the headCount, bodyCount, and bottomCount displaying.
