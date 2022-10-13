@@ -8,8 +8,8 @@ export default function Controls({
   bottom,
   setBottom,
   setHeadCount,
-  // setBodyCount,
-  // setBottomCount
+  setBodyCount,
+  setBottomCount
 }) {
   return (
     <div className="controls">
@@ -31,6 +31,7 @@ export default function Controls({
         value={body}
         onChange={(e) => {
           setBody(e.target.value);
+          setBodyCount((prevState) => prevState + 1);
         }}
       >
         <option value="DragonplateArmor">
