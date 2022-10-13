@@ -6,7 +6,10 @@ export default function Controls({
   body,
   setBody,
   bottom,
-  setBottom
+  setBottom,
+  setHeadCount,
+  // setBodyCount,
+  // setBottomCount
 }) {
   return (
     <div className="controls">
@@ -14,9 +17,9 @@ export default function Controls({
       <select
         value={head}
         onChange={(e) => {
-          setHead(e.target.value);
-        }}
-      >
+          setHead(e.target.value); 
+          setHeadCount((prevState) => prevState + 1);
+        }}>
         <option value="DragonplateHelmet">
           Dragonplate Helmet
         </option>
