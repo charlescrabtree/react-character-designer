@@ -1,0 +1,21 @@
+.character {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.head {
+    
+    width: 4vw;
+    position: relative;
+}
+
+.body {
+    width: 4vw;
+    position: relative;
+}
+
+.bottom {
+    width: 4vw;
+    position: relative;
+}

@@ -1,4 +1,4 @@
-
+import './Catchphrase.css';
 
 export default function Catchphrase({
   setCatchphrases,

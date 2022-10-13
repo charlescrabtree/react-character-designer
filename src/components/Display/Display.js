@@ -1,4 +1,4 @@
-
+import './Display.css';
 
 export default function Display({ headCount, bodyCount, bottomCount, catchphrases }) {
   return (

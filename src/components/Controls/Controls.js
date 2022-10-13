@@ -1,4 +1,4 @@
-
+import './Controls.css';
 
 export default function Controls({
   head,
@@ -13,7 +13,7 @@ export default function Controls({
 }) {
   return (
     <div className="controls">
-      <label>Helmet</label>
+      <label className='font'>Helmet</label>
       <select
         value={head}
         onChange={(e) => {
@@ -26,7 +26,7 @@ export default function Controls({
         <option value="Nightingale_Cowl">Nightingale Cowl</option>
         <option value="StalhrimHH">Stalhrim Helmet</option>
       </select>
-      <label>Armor</label>
+      <label className='font'>Armor</label>
       <select
         value={body}
         onChange={(e) => {
@@ -40,7 +40,7 @@ export default function Controls({
         <option value="Nightingale_Armor">Nightingale Armor</option>
         <option value="StalhrimHA">Stalhrim Armor</option>
       </select>
-      <label>Boots</label>
+      <label className='font'>Boots</label>
       <select
         value={bottom}
         onChange={(e) => {

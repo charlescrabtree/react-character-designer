@@ -1,4 +1,4 @@
-
+import './Character.css';
 
 export default function character({ head, body, bottom }) {
   return (

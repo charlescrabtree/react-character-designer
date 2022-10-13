@@ -1,12 +1,12 @@
 import { useState } from 'react';
-import '../Main/Main.css';
+import './Main.css';
 
 import Controls from '../Controls/Controls';
 import Catchphrase from '../Catchphrase/Catchphrase';
 import Display from '../Display/Display';
 import Character from '../Character/Character';
 
-import background from '../../background/skyrimBackground.jpg';
+
 
 
 export default function Main() {
@@ -19,7 +19,7 @@ export default function Main() {
   const [catchphrases, setCatchphrases] = useState([]);
   const [currentCatchphrase, setCurrentCatchphrase] = useState('');
   return (
-    <div className="main" style={{ backgroundImage: `url(${background})` }}>
+    <div className="main">
       <div className="tools">
         <Controls 
           head={head}
